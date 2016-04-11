@@ -7,4 +7,5 @@ go:
 
 install:
         - export PATH=$GOPATH/bin:$PATH
+        - go get github.com/spf13/pflag
         - go install ./...
