@@ -1,5 +1,10 @@
 # Kubernetes API Server Discovery
 
+[![Travis Widget]][Travis]
+
+[Travis]: https://travis-ci.org/egergo/kube-discovery
+[Travis Widget]: https://travis-ci.org/egergo/kube-discovery.svg?branch=master
+
 Utility to discover a working Kubernetes API server address and hand it over to other services.
 
 In case of running a [high-availability (HA) Kubernetes cluster](http://kubernetes.io/docs/admin/high-availability/), the kube-apiserver endpoints must be load balanced, since kubelet and kube-proxy accept only one API endpoint [https://github.com/kubernetes/kubernetes/issues/18174]((kubernetes #18154)). In certain environments an internal load balancer is not desirable, and Kubernetes' load balancer is not available before a running a properly configured kube-proxy.
