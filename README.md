@@ -1,9 +1,12 @@
 # Kubernetes API Server Discovery
 
-[![Travis Widget]][Travis]
+[![GoReportCard Widget]][GoReportCard] [![Travis Widget]][Travis]
 
 [Travis]: https://travis-ci.org/egergo/kube-discovery
 [Travis Widget]: https://travis-ci.org/egergo/kube-discovery.svg?branch=master
+[GoReportCard]: https://goreportcard.com/report/github.com/egergo/kube-discovery
+[GoReportCard Widget]: https://goreportcard.com/badge/github.com/egergo/kube-discovery
+
 
 Utility to discover a working Kubernetes API server address and hand it over to other services.
 
